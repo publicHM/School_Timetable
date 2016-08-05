@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<!--Shows popup window with passed message.-->
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="250.0" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="general.OKDialogBoxController">
+   <children>
+      <Label fx:id="label" alignment="CENTER" prefHeight="20.0" prefWidth="215.0">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Label>
+      <Button alignment="CENTER" mnemonicParsing="false" onAction="#pressedOKButton" prefWidth="100.0" text="OK">
+      </Button>
+   </children>
+</VBox>
